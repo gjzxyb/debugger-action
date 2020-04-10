@@ -1,0 +1,7 @@
+name: Ubuntu
+on: [push]
+jobs:Ubuntu:
+runs-on: ubuntu-ltest
+steps:
+-name: setup debug session
+ uses: csexton/debugger-action@master
